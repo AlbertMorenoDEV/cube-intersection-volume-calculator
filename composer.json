@@ -1,0 +1,28 @@
+{
+    "name": "albert/nektria-test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "NektriaTest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "symfony/console": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.7"
+    },
+    "authors": [
+        {
+            "name": "AlbertMorenoDEV",
+            "email": "albert.moreno.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
