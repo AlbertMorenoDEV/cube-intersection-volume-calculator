@@ -3,7 +3,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use NektriaTest\Infrastructure\Console\CalculateCubesIntersectionVolumeCommand;
+use CubeIntersectionVolumeCalculator\Infrastructure\Console\CalculateCubesIntersectionVolumeCommand;
 use Symfony\Component\Console\Application;
 
 $application = new Application();

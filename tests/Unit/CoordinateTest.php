@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace Tests\Unit;
 
-use NektriaTest\Domain\Coordinate;
-use NektriaTest\Domain\InvalidCoordinateException;
+use CubeIntersectionVolumeCalculator\Domain\Coordinate;
+use CubeIntersectionVolumeCalculator\Domain\InvalidCoordinateException;
 
 class CoordinateTest extends \PHPUnit_Framework_TestCase
 {

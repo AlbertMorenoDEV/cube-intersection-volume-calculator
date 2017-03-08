@@ -1,10 +1,10 @@
 <?php
 declare(strict_types = 1);
 
-namespace NektriaTest\Application;
+namespace CubeIntersectionVolumeCalculator\Application;
 
-use NektriaTest\Domain\Coordinate;
-use NektriaTest\Domain\Cube;
+use CubeIntersectionVolumeCalculator\Domain\Coordinate;
+use CubeIntersectionVolumeCalculator\Domain\Cube;
 
 class CubeService
 {
@@ -14,7 +14,7 @@ class CubeService
      * @param string $coordinate2
      * @param integer $longitude2
      * @return float
-     * @throws \NektriaTest\Domain\InvalidCoordinateException
+     * @throws \CubeIntersectionVolumeCalculator\Domain\InvalidCoordinateException
      */
     public function calculateIntersectionVolume(
         string $coordinate1,

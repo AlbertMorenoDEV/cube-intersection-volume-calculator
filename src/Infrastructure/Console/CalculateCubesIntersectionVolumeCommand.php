@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace NektriaTest\Infrastructure\Console;
+namespace CubeIntersectionVolumeCalculator\Infrastructure\Console;
 
-use NektriaTest\Application\CubeService;
+use CubeIntersectionVolumeCalculator\Application\CubeService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;

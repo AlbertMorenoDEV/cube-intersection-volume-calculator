@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace Tests\Integration;
 
-use NektriaTest\Application\CubeService;
+use CubeIntersectionVolumeCalculator\Application\CubeService;
 
 class CubeServiceTest extends \PHPUnit_Framework_TestCase
 {

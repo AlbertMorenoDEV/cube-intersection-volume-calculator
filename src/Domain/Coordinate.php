@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace NektriaTest\Domain;
+namespace CubeIntersectionVolumeCalculator\Domain;
 
 class Coordinate
 {
@@ -25,7 +25,7 @@ class Coordinate
     /**
      * @param string $coordinate
      * @return Coordinate
-     * @throws \NektriaTest\Domain\InvalidCoordinateException
+     * @throws \CubeIntersectionVolumeCalculator\Domain\InvalidCoordinateException
      */
     public static function fromString(string $coordinate): self
     {
@@ -41,7 +41,7 @@ class Coordinate
 
     /**
      * @param string $coordinate
-     * @throws \NektriaTest\Domain\InvalidCoordinateException
+     * @throws \CubeIntersectionVolumeCalculator\Domain\InvalidCoordinateException
      */
     private static function validateString(string $coordinate): void
     {

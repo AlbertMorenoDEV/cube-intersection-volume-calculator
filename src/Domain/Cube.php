@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace NektriaTest\Domain;
+namespace CubeIntersectionVolumeCalculator\Domain;
 
 class Cube
 {
